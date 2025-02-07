@@ -49,7 +49,7 @@ stream_buffer: false
 visualize: false
 augment: false
 agnostic_nms: false
-classes: null
+classes: 1
 retina_masks: false
 embed: null
 show: false
