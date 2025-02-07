@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['Backboard', 'Ball', 'Basket', 'Dribble', 'Made Basket', 'Person', 'Referee', 'Shot Clock', 'person']
+
+roboflow:
+  workspace: kpdproject
+  project: dribble-identifier-houi3-tyekm
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kpdproject/dribble-identifier-houi3-tyekm/dataset/1
